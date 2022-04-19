@@ -1,0 +1,79 @@
+/* #user_name, #author_name, #isbn, #summary_name, #cover {
+    color: red;
+    font-size: 8pt;
+}
+
+.form-group{
+    position: relative;
+}
+
+.form-group i{
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-group.success input{
+  border-color:#2ecc71;
+}
+
+.form-group.error input{
+    border-color:#df260e;
+  }
+
+  .form-group.success i.fa-check-circle{
+    color:#2ecc71;
+    visibility: visible;
+  }
+
+  .form-group.error i.fa-exclamation-triangle{
+    color:#df260e;
+    visibility: visible;
+  }
+
+  .form-group.error small{
+    color:red;
+    visibility: visible;
+  }
+
+#user_name, #author_name, #isbn, #summary_name, #cover{
+    visibility: hidden;
+    position: absolute;
+} */
+
+
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+  margin: 2px 0 3px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;
+  color: #B94A48;
+
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+} 
